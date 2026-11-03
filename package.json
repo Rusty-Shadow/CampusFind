@@ -1,0 +1,14 @@
+{
+  "name": "campusfind",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campus Lost & Found full-stack application",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "npm --prefix backend run dev",
+    "client:dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start"
+  },
+  "devDependencies": { "concurrently": "^9.1.2" }
+}

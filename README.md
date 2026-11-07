@@ -1,5 +1,7 @@
 # CampusFind — Campus Lost & Found Portal
 
+🌐 **Live Website:** https://campusfind-uewl.onrender.com
+
 A full-stack campus lost-and-found application built with React, Node.js, Express, and SQLite. Students can report lost or found belongings, search campus listings, upload photos, submit claims for found items, and manage their reports. Administrators get an overview dashboard, listing moderation, and a registered-user view.
 
 ## Features
